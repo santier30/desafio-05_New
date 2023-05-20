@@ -1,0 +1,92 @@
+@import "./config";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Righteous&family=Rubik+Pixels&display=swap');
+
+html{
+  background-color: $primary-color;
+  font-family:'Lobster', cursive ;
+} 
+header{
+      z-index: 101;
+      top: 0;
+      position: fixed;
+      width: 100%;
+      background-color: $title-color;
+      padding: .8rem;
+  h1{
+      width: 100%;
+      font-size: 2.8rem;
+      text-align: center;
+      color: white;
+    }
+}
+
+section {
+  position: relative;
+  z-index: 100;
+  width: 80%;
+  background-color:$secondary-color ;
+  border-radius: .7rem;
+  margin: 8rem auto;
+  padding: 2rem 1rem 5rem 1rem;
+  box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.3);
+
+  
+  article{
+
+ 
+    h2{
+      color: $title-color;
+      padding: 1.2rem;
+      font-size: 2rem;
+    }
+    p{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: .6rem;
+      font-size: 1.1rem;
+       &::first-letter {
+        font-size: 2rem;
+        font-family:'Lobster', cursive ;
+
+      }
+    }
+   
+    
+    h2,p:nth-child(2){
+      text-align: center;
+      width: 100%;
+      font-family:'Lobster', cursive ;
+    }
+    p:nth-child(2){
+      font-size: 1.5rem;
+
+    
+
+    }
+
+  } 
+      .Cat-container{
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      bottom: -25rem;
+      left: 0;
+  }
+  }
+.city{
+    position: fixed;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    #{&}_img{
+      width: 100%;
+    }
+ 
+  }
+  
+ 
+ 
+
+    
